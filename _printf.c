@@ -13,8 +13,8 @@ int _printf(const char *format, ...)
 	int flag, width, precision, size, buff_ind = 0;
 	va_list list;
 	char buffer[BUFF_SIZE];
-	
-	i =0;
+
+	i = 0;
 	if (format == NULL)
 		return (-1);
 	va_start(list, format);
